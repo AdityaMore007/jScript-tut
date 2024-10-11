@@ -40,3 +40,21 @@ String = "String"
 Object = "object"
 
 */
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+// Stack(Primitive) --> we get the refernce/copy of the value[here values doesn't get changed unless we make it. ]
+// Heap(Non primitive)--> here, we get refernce to that object[values can be changed.]
+
+const userOne = {
+    email : "Aditya@google.com",
+    upi:"Adimore56@ybl"
+}
+
+let userTwo = userOne
+console.log(userTwo);
+
+userOne.email = "AdityaMore@yahoo.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+

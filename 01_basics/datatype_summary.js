@@ -12,22 +12,22 @@ const anotherId = Symbol('123')
 
 console.log(id === anotherId);
 
-const bigNumber = 23651656846846816n
-console.log(bigNumber,typeof(bigNumber));
+// const bigNumber = 23651656846846816n
+// console.log(bigNumber,typeof(bigNumber));
 
-const heros = ["shaktiman","naagraj","doga"]
+// const heros = ["shaktiman","naagraj","doga"]
 
-let MyObj = {
-    name:"hitesh",
-    age: 24,
-    place:"Mumbai"
-}
+// let MyObj = {
+//     name:"hitesh",
+//     age: 24,
+//     place:"Mumbai"
+// }
 
-const MyFunction = function(){
-    console.log("hello world");
+// const MyFunction = function(){
+//     console.log("hello world");
     
-}
-console.log(typeof MyFunction);
+// }
+// console.log(typeof MyFunction);
 
 
 /*

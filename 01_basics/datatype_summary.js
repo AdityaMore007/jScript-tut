@@ -42,7 +42,7 @@ Object = "object"
 */
 // ++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-// Stack(Primitive) --> we get the refernce/copy of the value[here values doesn't get changed unless we make it. ]
+// Stack(Primitive) --> we get the refernce/copy of the value/object[here values doesn't get changed unless we make it. ]
 // Heap(Non primitive)--> here, we get refernce to that object[values can be changed.]
 
 const userOne = {
@@ -57,4 +57,6 @@ userOne.email = "AdityaMore@yahoo.com"
 
 console.log(userOne.email);
 console.log(userTwo.email);
+console.log(userOne);
+
 

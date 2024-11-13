@@ -20,12 +20,17 @@ const marvel_heros = ["Thor","IronMan","SpiderMan"]
 
 // console.log(real_another_array);
 
-console.log(Array.isArray(marvel_heros));
-console.log(Array.from("Hitesh"));
-console.log(Array.from({name : "Aditya"}));
+// console.log(Array.isArray(marvel_heros));
+// console.log(Array.from("Hitesh"));
+// console.log(Array.from({name : "Aditya"}));
 // here, it can't convert key:value pairs into Array.it always
 // gives us Empty String.
 
+let score1 = 100
+let score2 = 200
+let score3 = 300
+
+console.log(Array.of(score1,score2,score3));
 
 
 

@@ -24,7 +24,7 @@ const user = {
 
 // const chai = function() {
 //         let username = "Aditya"
-//         console.log(this.username);
+//         console.log(this.username);sz
         
 // }
 
@@ -47,7 +47,12 @@ const user = {
 
 
 // THIS IS AN IMPLICIT FUNCTION.
-const addtwo = (num1,num2) => ({username : "Aradhya"})
+// const addtwo = (num1,num2) => ({username : "Aradhya"})
 
 
-console.log(addtwo(4,5))
+// console.log(addtwo(4,5))
+
+
+const addTwo = (n1,n2) => n1 + n2
+
+console.log(addTwo(3,4))

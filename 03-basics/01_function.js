@@ -53,34 +53,66 @@
 
 // ...parameter --> Rest operator or Spread operator
 
-function calculateCartPrice(val1,val2,...num1){
-    return num1
+// function calculateCartPrice(val1,val2,...num1){
+//     return num1
+// }
+
+// // console.log(calculateCartPrice(200, 400, 500, 600, 650));
+
+// const user = {
+//     username : "Aditya",
+//     Price : 199
+// }
+
+// function handleObject(anyobject){
+//     console.log(`Username is ${anyobject.username} and 
+//         the price is ${anyobject.Price}`);
+    
+// }
+
+// // handleObject(user)
+// handleObject({
+//     username : "Aditya",
+//     Price : 500
+// })
+
+// const myNewarray = [200,400,500,100,600]
+
+// function returnSecondValue(getArray){
+//     return getArray[1]
+// }
+
+// console.log(returnSecondValue(myNewarray));
+// console.log(returnSecondValue([200,900,950,450]));
+
+function addtwoNumber(n1,n2){
+    return n1+n2
 }
 
-// console.log(calculateCartPrice(200, 400, 500, 600, 650));
+const result = addtwoNumber(3,4)
+// console.log(result);
+
+// addtwoNumber(5,5)
+
+// function calculatePrice(val1, val2, ...numb1){
+//     return val2
+// }
+// console.log(calculatePrice(200,200,300,400,600));
 
 const user = {
-    username : "Aditya",
-    Price : 199
+    username : "Hitesh",
+    price : 230
 }
 
-function handleObject(anyobject){
-    console.log(`Username is ${anyobject.username} and 
-        the price is ${anyobject.Price}`);
+function creatorP(uObject){
+    console.log(`Username is ${uObject.username} and price is ${uObject.price}`);
     
 }
 
-// handleObject(user)
-handleObject({
+// creatorP(user)
+
+creatorP({
     username : "Aditya",
-    Price : 500
+    price : 455
 })
-
-const myNewarray = [200,400,500,100,600]
-
-function returnSecondValue(getArray){
-    return getArray[1]
-}
-
-console.log(returnSecondValue(myNewarray));
-console.log(returnSecondValue([200,900,950,450]));
+ 

@@ -11,7 +11,7 @@ const coding = ["js", "ruby", "python", "java", "cpp"]
 // })
 
 // coding.forEach((item) => {
-//   console.log(item);
+  // console.log(item);
 
 // })
 
